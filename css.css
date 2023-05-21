@@ -1,0 +1,155 @@
+.nav,
+.n {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav>a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  padding-top: 8px;
+  margin: 5px;
+  background-color: black;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 90px;
+  color: #8a4816;
+}
+
+
+
+.nav-short>a:hover,
+.nav-short>a:focus,
+.nav>a:hover,
+.nav>a :focus,
+.nav-left>a:hover,
+.nav-left>a:focus {
+  color: black !important;
+  font-weight: bold;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 250px;
+}
+
+.art {
+  max-width: 60%;
+  height: auto;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #292929;
+
+
+}
+
+.text {
+  max-width: 60%;
+  height: auto;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  color: #8a4816;
+  border: 2px solid #292929;
+  padding: 5px;
+
+
+}
+
+.clear {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.activeskillgem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 60%;
+  height: auto;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  color: #8a4816;
+  border: 2px solid #292929;
+  padding: 5px;
+
+}
+
+.supportskillgem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 60%;
+  height: auto;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  color: #8a4816;
+  border: 2px solid #292929;
+  padding: 5px;
+
+}
+
+.naglowek {
+  max-width: 60%;
+  height: auto;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  color: #8a4816;
+  border: 2px solid #292929;
+  padding: 5px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 60%;
+  height: auto;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  color: #8a4816;
+  border: 2px solid #292929;
+  padding: 5px;
+}
+
+.left {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+  padding-top: 8px;
+  margin: 5px;
+  background-color: transparent;
+  border-radius: 15px;
+  text-decoration: none;
+  width: 30px;
+  color: #8a4816;
+  position: fixed;
+  top: 50%;
+}
+
+.small {
+  max-width: 25px;
+  max-height: 25px;
+}
